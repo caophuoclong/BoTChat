@@ -16,12 +16,14 @@ def main():
     pre = "\nÁp suất: "+str(round(re["main"].get("pressure")*(9.87*(1/10000)),2)) + " atm" #Ap suat
     humi = "\nĐộ ẩm: "+str(re["main"].get("humidity"))+"%" #Do am %
     wins="\nTốc độ gió: "+str(re["wind"].get("speed")*3.6)+" km/h" #toc do gio m/s
-    giodo = "\nĐo vào lúc: "+ str(datetime.datetime.fromtimestamp(re["dt"])) #gio do
-    binhminh = "\nBình minh: "+ str(datetime.datetime.fromtimestamp(re["sys"].get("sunrise"))) #Binh minh
-    hoanghon = "\nHoàng hôn: " + str(datetime.datetime.fromtimestamp(re["sys"].get("sunset"))) #Hoang hon
+    giodo = "\nĐo vào lúc: "+ str(datetime.datetime.fromtimestamp(re["dt"],re["sys"].get("timezone"))) #gio do
+    binhminh = "\nBình minh: "+ str(datetime.datetime.fromtimestamp(re["sys"].get("sunrise"),re["sys"].get("timezone"))) #Binh minh
+    hoanghon = "\nHoàng hôn: " + str(datetime.datetime.fromtimestamp(re["sys"].get("sunset"),re["sys"].get("timezone"))) #Hoang hon
     noido = "\nVị trí: " +re["name"] #noi do
     total = noido + giodo + temp + humi + pre + wins + wea + lon + lat + binhminh + hoanghon
     return total
+
+
 
 
 
