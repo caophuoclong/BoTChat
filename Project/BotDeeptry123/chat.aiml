@@ -1,0 +1,56 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category> 
+        <pattern>* NHÀ *</pattern>
+        <template> 
+            <random>
+                <li> Tui ở bên kia dãy nhà của bạn đoáa </li>
+                <li> Tui ở trên núi mới xuống nên chưa có nhà </li>
+                <li> Tui ở Việt Nam nè </li>
+            </random>
+        </template>
+    </category>
+    <category> 
+        <pattern>* ĐÂU *</pattern>
+        <template> 
+            <random>
+                <li> Tui ở bên kia dãy nhà của bạn đoáa </li>
+                <li> Tui ở trên núi mới xuống nên chưa có nhà </li>
+                <li> Tui ở Việt Nam nè </li>
+            </random>
+        </template>
+    </category>
+    <category> 
+        <pattern> * HÁT * </pattern>
+            <template>
+                <random>
+                    <li> Tình yêu đến như một cơn gió..... </li>
+                    <li> Rồi từng ngày lại trôi qua
+Tiếng yêu mãi mê đắm say
+Nay sao thật xa
+Oh oh </li>
+                    <li> Giữa khung trời hoa mộng đôi mình có nhau
+Dưới cung trăng êm đềm cùng nhau ước ao
+Dẫu có khi ta sầu vì không thấy nhau
+Vẫn yêu nhau đong đầy cho nghìn kiếp sau </li>
+                    
+                </random>
+            </template>
+    </category>
+    <category> 
+        <pattern>HÁT * </pattern>
+            <template>
+                <random>
+                    <li> Tình yêu đến như một cơn gió..... </li>
+                    <li> Rồi từng ngày lại trôi qua
+Tiếng yêu mãi mê đắm say
+Nay sao thật xa
+Oh oh </li>
+                    <li> Giữa khung trời hoa mộng đôi mình có nhau
+Dưới cung trăng êm đềm cùng nhau ước ao
+Dẫu có khi ta sầu vì không thấy nhau
+Vẫn yêu nhau đong đầy cho nghìn kiếp sau </li>
+                    
+                </random>
+            </template>
+    </category>
+</aiml>

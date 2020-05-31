@@ -1,0 +1,112 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+      <pattern>HELLO *</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+       
+   </category>  
+   <category>
+      <pattern>XIN CHÀO *</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+       
+   </category>  
+   <category>
+      <pattern>CHÀO *</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+       
+   </category>  
+   <category>
+      <pattern>XIN CHÀO</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+       
+   </category>  
+   <category>
+      <pattern>HELLO</pattern>
+      <template>
+         <random>
+            <li> Chào bạn</li>
+            <li> Chào cậu </li>
+            <li> Hello </li>
+            <li> Xin chào</li>
+            <li> Chào!! </li>
+            <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>
+   </category>  
+ 
+      <category>
+      <pattern>BOT *</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+   </category> 
+      <category>
+      <pattern>* BOT *</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+   </category> 
+      <category>
+      <pattern>BOT</pattern>
+      <template>
+         <random>
+         <li> Chào bạn</li>
+         <li> Chào cậu </li>
+         <li> Hello </li>
+         <li> Xin chào</li>
+         <li> Chào!! </li>
+         <li> Mình là bot deeptry nè </li>
+         </random>
+      </template>  
+   </category> 
+
+</aiml>

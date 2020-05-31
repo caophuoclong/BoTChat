@@ -1,0 +1,102 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category> 
+    
+        <pattern>* TUỔI *</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+
+            </random>
+        </template>
+
+    </category>
+    <category> 
+    
+        <pattern>* TUỔI</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+            
+            </random>
+        </template>
+
+    </category>
+    <category> 
+    
+        <pattern>TUỔI</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+            
+            </random>
+        </template>
+
+    </category>
+    <category> 
+    
+        <pattern>AGE</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+            
+            </random>
+        </template>
+
+    </category>
+          <category> 
+    
+        <pattern>* AGE</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+            
+            </random>
+        </template>
+
+    </category>
+          <category> 
+    
+        <pattern>AGE *</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+            
+            </random>
+        </template>
+
+    </category>
+          <category> 
+    
+        <pattern>* AGE  *</pattern>
+        <template> 
+            <random>
+            <li> Đố bạn đó </li>
+            <li>Tui mới lớn thuiiii hông nói tuổi đâu</li>
+            <li>Tui mới được tạo ra hồi vài hôm trước đó</li>
+            <li> Tui mười chín tuổi dòiii!!! hí hí </li>
+            
+            </random>
+        </template>
+
+    </category>
+
+</aiml>

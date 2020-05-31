@@ -1,0 +1,36 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <category>
+        <pattern>* BYE </pattern>
+        <template>
+            <random>
+            <li> Bái bai </li>
+            <li>    Good Byeeeee </li>
+            <li> Chào thân ái và quyết thắng </li>
+
+            </random>
+        </template>
+    </category>
+    <category>
+    <pattern>TẠM BIỆT </pattern>
+        <template>
+            <random>
+                <li> Bái bai </li>
+                <li>    Good Byeeeee </li>
+                <li> Chào thân ái và quyết thắng </li>
+            </random>
+        </template>
+    </category>
+    
+    <category>
+    <pattern>* TẠM BIỆT </pattern>
+        <template>
+            <random>
+            <li> Bái bai </li>
+            <li>    Good Byeeeee </li>
+            <li> Chào thân ái và quyết thắng </li>
+            
+            </random>
+        </template>
+    </category>
+    
+</aiml>
