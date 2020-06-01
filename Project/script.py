@@ -4,11 +4,12 @@ import time
 import os
 import aiml
 import weather
+import test
 
 
 def convert(messe):
-    savefile = os.getcwd()
-    url = 'https://api.fpt.ai/hmi/tts/v5'
+    savefile = os.getcwd() #Lấy địa chỉ lưu file
+    url = 'https://api.fpt.ai/hmi/tts/v5' 
 
     payload = messe
     headers = {
@@ -19,29 +20,25 @@ def convert(messe):
 
     response = requests.request('POST', url, data=payload.encode('utf-8'), headers=headers)
     x = json.loads(response.text)
-    link = x.get('async')
-    rqus = requests.get(link)
-    page = requests.get(link)
-    while page.status_code == 404:
-        page = requests.get(link)
-    fname = "Play"+str(int(time.time()))+".wav"
-    filelo = "{}/{}".format(savefile,fname)
-    file = open(filelo.format(fname), 'wb')
+    link = x.get('async') # Lấy link của file mp3
+    page = requests.get(link) # Gửi request.
+    while page.status_code == 404: # Check xem request có lỗi không
+        page = requests.get(link) 
+    fname = "Play"+str(int(time.time()))+".wav" #Tạo tên file.
+    filelo = "{}/{}".format(savefile,fname) #Đường dẫn tới file mp3
+    file = open(filelo.format(fname), 'wb') #Mở file theo dạng nhị phân
     
-    file.write(page.content)
+    file.write(page.content) #Ghi file nhị phân.
     file.close()
     
 
     file = filelo
-    os.system("mpg123 " + file)
-    os.remove(filelo)
+    os.system("mpg123 " + file) #Dùng package mpg123 để chạy file mp3
+    os.remove(filelo) #Xóa file sau khi dùng xong
 def text(x):
     return x
 
 def main(ms):
-    kernel = aiml.Kernel()
-    kernel.learn("start.xml")
-    kernel.respond("load aiml b")
     file = open("history.txt","w+")
     x = "Long"
     while x != "q":
@@ -50,16 +47,16 @@ def main(ms):
             break
         if x == None:
             x = "q"
-            messe = kernel.respond(x)
+            messe = test.simsimi(x)
             file.write(messe)
             file.close
             convert(messe)
             
         if x == "/w":
-            wea = weather.main()
+            wea = weather.main() # Đọc thời tiết tại vị trí cần thơ
             convert(wea)
         else:
-            messe = kernel.respond(x)
+            messe = test.simsimi(x)
             file.write(messe)
             file.close
             convert(messe)

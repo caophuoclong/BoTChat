@@ -1,14 +1,18 @@
 import requests
-
-url = "http://api.simsimi.com/request.p"
-
-querystring = {"ft":"0.0","text":"xin chao","lc":"en"}
-
-headers = {
-    
-    'x-api-key': "4G-55qefmZh0QlkAkfQjSaDuQJMcaTHktmP3NeTU"
+import json 
+def simsimi(mess):
+    ins = mess
+    headers = {
+        'Content-Type': 'application/json',
+        'x-api-key': '8LIQGLEpIGNZShpeWJd4HjVB40PoZwt0wWdZCvtO',
+        # 'x-api-key':"ef2ba992-acba-4fe1-95f8-f4bb937e712f",
     }
+    data1 = '{\n            "utext": "ins", \n            "lang": "vn" \n     }'
+    print("Long")
+    data = data1.replace('"ins"','"{}"'.format(ins))
+    encoded_data = data.encode("utf-8")
 
-response = requests.request("GET", url, headers=headers, params=querystring)
-
-print(response.text)
+    response = requests.post('https://wsapi.simsimi.com/190410/talk', headers=headers, data=encoded_data)
+    x = json.loads(response.text)
+    #print(x['atext'])
+    return x['atext']
