@@ -32,3 +32,5 @@ def main(x):
     soure = "\nNguồn: https://rapidapi.com/KishCom/api/covid-19-coronavirus-statistics/endpoints"
     total = update + country + case1 + case2 + case3 + soure
     return total
+
+print(main("VN"))

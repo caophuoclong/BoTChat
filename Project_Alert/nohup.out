@@ -1,0 +1,130 @@
+[H[2J[3JHiện tại: 10:29:13
+Tương lai: 10:29:43
+10:29:13
+10:29:14
+10:29:15
+10:29:16
+10:29:17
+10:29:18
+10:29:19
+10:29:20
+10:29:21
+10:29:22
+10:29:23
+10:29:25
+10:29:26
+10:29:27
+10:29:28
+10:29:29
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.25.13; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+[src/libout123/module.c:133] error: Failed to open module sdl.
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+
+Directory: /home/phuoclong/Sound/
+Playing MPEG stream 1 of 1: stand.mp3 ...
+
+MPEG 2.0 L III vbr 16000 mono
+
+Title:   FPT Speech Synthesis            Artist: FPT Technology Innovation     
+Comment:                                 Album:  banmai_ver1.9                 
+Year:                                    Genre:  Unknown                       
+
+[0:01] Decoding of stand.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.25.13; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+[src/libout123/module.c:133] error: Failed to open module sdl.
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+
+Directory: /home/phuoclong/Sound/
+Playing MPEG stream 1 of 1: stand.mp3 ...
+
+MPEG 2.0 L III vbr 16000 mono
+
+Title:   FPT Speech Synthesis            Artist: FPT Technology Innovation     
+Comment:                                 Album:  banmai_ver1.9                 
+Year:                                    Genre:  Unknown                       
+
+[0:01] Decoding of stand.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.25.13; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+[src/libout123/module.c:133] error: Failed to open module sdl.
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+
+Directory: /home/phuoclong/Sound/
+Playing MPEG stream 1 of 1: stand.mp3 ...
+
+MPEG 2.0 L III vbr 16000 mono
+
+Title:   FPT Speech Synthesis            Artist: FPT Technology Innovation     
+Comment:                                 Album:  banmai_ver1.9                 
+Year:                                    Genre:  Unknown                       
+
+[0:01] Decoding of stand.mp3 finished.
+10:29:35
+10:29:36
+10:29:37
+10:29:38
+10:29:39
+10:29:40
+10:29:41
+10:29:42
+10:29:43
+10:29:44
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.25.13; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+[src/libout123/module.c:133] error: Failed to open module sdl.
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+
+Directory: /home/phuoclong/Sound/
+Playing MPEG stream 1 of 1: drink.mp3 ...
+
+MPEG 2.0 L III vbr 16000 mono
+
+Title:   FPT Speech Synthesis            Artist: FPT Technology Innovation     
+Comment:                                 Album:  banmai_ver1.9                 
+Year:                                    Genre:  Unknown                       
+
+[0:01] Decoding of drink.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.25.13; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+[src/libout123/module.c:133] error: Failed to open module sdl.
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+
+Directory: /home/phuoclong/Sound/
+Playing MPEG stream 1 of 1: drink.mp3 ...
+
+MPEG 2.0 L III vbr 16000 mono
+
+Title:   FPT Speech Synthesis            Artist: FPT Technology Innovation     
+Comment:                                 Album:  banmai_ver1.9                 
+Year:                                    Genre:  Unknown                       
+
+[0:01] Decoding of drink.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+	version 1.25.13; written and copyright by Michael Hipp and others
+	free software (LGPL) without any warranty but with best wishes
+[src/libout123/module.c:133] error: Failed to open module sdl.
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+
+Directory: /home/phuoclong/Sound/
+Playing MPEG stream 1 of 1: drink.mp3 ...
+
+MPEG 2.0 L III vbr 16000 mono
+
+Title:   FPT Speech Synthesis            Artist: FPT Technology Innovation     
+Comment:                                 Album:  banmai_ver1.9                 
+Year:                                    Genre:  Unknown                       
+
+[0:01] Decoding of drink.mp3 finished.
