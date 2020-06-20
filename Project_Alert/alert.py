@@ -2,7 +2,6 @@ import datetime
 import pytz 
 import notify2
 import os
-import vlc
 import time
 def main():
     os.system("clear")
