@@ -1,0 +1,89 @@
+body {background-color: rgb(173, 80, 127);
+    font-size:16px;
+    height: 1050px;
+    width: 1000px;
+    margin: 0px auto;}
+#logo  {background-color: rgb(223, 151, 187);
+        width: auto;
+            height: 220px;}
+      
+#logo img {height: 220px;
+            width: 1000px;
+            float: left;
+            margin-left: 0px;}
+
+
+p {color:pink;
+        margin: 0px ;}
+        
+#home {background-color: rgb(221, 137, 28);
+        width: auto px;
+        height: 50px;
+      }
+
+#home ul li {float: left;
+                margin-right: 20px;
+                list-style:none ;
+                margin-top: 0px;}
+#home ul li a{text-decoration: none;
+                color: moccasin;
+                display: block;
+            line-height: 40px;
+            margin-left: 50px;}
+#home a:hover{color: purple;}
+#main {height: 600px;}
+#main #left {background-color:pink;
+            width: 250px;
+            height: 600px ;
+            float: left;}
+#main #left h1{
+            font-size: 30px;
+            font-weight: bolder;
+                color: rgb(10, 6, 8);
+                }
+#main #left h3 a {color: sienna;
+                text-emphasis: none;
+                }
+#main #left  a:hover{color:purple;
+                        }
+
+#main #right table img{ height: 180px;
+                        width: 150px;
+                }
+
+#main #left h3 a {color: sienna;
+                text-emphasis: none;}
+
+#main #right {background-color: rgb(243, 217, 230);
+                width: 750px;
+                height: 600px;
+                float: left;
+                margin-right: 0px ;
+                
+                overflow: auto;
+               
+                }
+
+
+
+                        
+                        
+#main #right img { height:200px;
+                width: 745px;
+        margin-left: 0px;
+        margin-top: 0px;
+        float: left;
+       
+        }
+ #main #right table th {height: 200px;
+            width: 180px;
+            background-color: ivory;
+            float: left;
+            margin-left: 30px;
+            margin-top: 30px;}
+
+
+a h3{margin-left: 200px;}
+
+
+
